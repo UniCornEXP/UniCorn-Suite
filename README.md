@@ -55,7 +55,6 @@ quick-start text file; come here for the full guide, troubleshooting, and themes
 Uni-Inspector is the free foundation — every other window in this guide is an add-on that slots
 straight in.
 
-- 🛒 Asset Store: https://assetstore.unity.com/publishers/uni-corn-express
 - 🎮 Itch.io Shop: https://unicornexpress.itch.io/
 - 💬 Discord: https://discord.gg/QjcRyAzEc9
 
