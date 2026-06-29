@@ -9,6 +9,8 @@ of prefabs, models, and other assets you keep coming back to, organized into you
 - **Use it** — drag a favourited entry back out anywhere, including straight into
   [Uni-Preview](uni-preview.md)'s grid.
 - **Categories** — group favourites into tabs so a large library stays browsable.
+- **Save as Group** — multi-select favourites and click **Save as Group** to hand them straight
+  to [Uni-Hierarchy](uni-hierarchy.md)'s Uni-Groups browser (requires Uni-Hierarchy).
 
 ---
 See also: [Uni-Preview](uni-preview.md) · [Troubleshooting](troubleshooting.md)

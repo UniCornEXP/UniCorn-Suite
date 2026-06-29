@@ -5,11 +5,14 @@ top of it.
 
 ## Component Header Buttons
 
-Four icons on every component header:
+Icons on every component header:
 
 - **Pop Out** — own floating window
 - **Watch** — PlayMode Recorder
 - **Save** — Component Clipboard
+- **Save Now** — Play Mode only; snapshot this component's current values on the spot, without
+  first adding it to the Watch list
+- **Pin** — [Uni-Pinned Components](pinned-components.md)
 - **Compare** — [Uni-Compare Components](compare-components.md)
 
 ## PlayMode Recorder
@@ -27,6 +30,12 @@ adds the component first if missing.
 
 ◄/► toolbar buttons — browser-style back/forward across everything you've selected, anywhere in
 the Editor.
+
+The Components tab also embeds a mini, scrollable Navigation History panel right above your
+selection's components — all 3 lanes (Hierarchy objects, Project items, Folders), resizable by
+dragging its bottom edge, collapsible via its foldout, and auto-scrolling to whatever you just
+selected. Click the history icon on its header to jump straight to the full History tab, which
+holds up to 30 entries per lane and is scrollable on its own.
 
 ## Component Pop-Out
 

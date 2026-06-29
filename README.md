@@ -25,8 +25,8 @@ quick-start text file; come here for the full guide, troubleshooting, and themes
 - **Install:** Asset Store / Package Manager → *My Assets* → Download → Import — repeat for each
   add-on you own.
 - **Verify:** **Tools → Unicorn Inspector** (or **Window → Unicorn Inspector**) lists every
-  installed product. Every component header in the normal Inspector also grows four small icon
-  buttons.
+  installed product. Every component header in the normal Inspector also grows several small
+  icon buttons.
 - **Suite launcher:** the crown icon in Uni-Inspector's toolbar opens every product you own — and
   shows you what you're missing.
 
@@ -42,7 +42,8 @@ quick-start text file; come here for the full guide, troubleshooting, and themes
    on the Sync bar.
 5. **Uni-Favourite:** drag any asset in to favourite it; drag it back out whenever you need it
    again.
-6. **Uni-Hierarchy:** create a folder or group selected siblings from the toolbar.
+6. **Uni-Hierarchy:** create a folder or pocket selected siblings from the toolbar; build a
+   cross-cutting Uni-Group from Uni-Favourite's "Save as Group" or the Uni-Groups browser.
 
 ## More
 
