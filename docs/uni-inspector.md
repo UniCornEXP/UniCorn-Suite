@@ -31,11 +31,19 @@ adds the component first if missing.
 ◄/► toolbar buttons — browser-style back/forward across everything you've selected, anywhere in
 the Editor.
 
-The Components tab also embeds a mini, scrollable Navigation History panel right above your
-selection's components — all 3 lanes (Hierarchy objects, Project items, Folders), resizable by
-dragging its bottom edge, collapsible via its foldout, and auto-scrolling to whatever you just
-selected. Click the history icon on its header to jump straight to the full History tab, which
-holds up to 30 entries per lane and is scrollable on its own.
+## Navigation History
+
+A separate, three-lane history — **Folders**, **Items** (other Project assets), and
+**Hierarchy** (scene GameObjects) — each its own independent timeline of up to 30 entries, so
+jumping around in one lane never bumps anything out of the others. Every visited entry shows up
+as a dot with its name underneath; hovering or clicking either the dot or the name jumps you
+straight back to it, and the view auto-scrolls to whatever you most recently selected.
+
+- **Full History tab** — its own tab in the main window, scrollable, all 30 entries per lane.
+- **Mini History panel** — the same three lanes embedded right above your selection's components
+  in the Components tab, so you don't have to leave it to jump back to something. Resize it by
+  dragging its bottom edge, collapse it via its foldout, or click the history icon on its header
+  to jump straight to the full History tab.
 
 ## Component Pop-Out
 
