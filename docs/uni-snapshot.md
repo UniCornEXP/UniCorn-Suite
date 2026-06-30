@@ -20,8 +20,8 @@ just fast point-in-time copies you can fall back to between real VCS commits.
 2. Turn on automatic snapshots and set an interval (5 minutes minimum). The copy is spread across
    many frames so it never freezes the Editor, even on large projects.
 3. Snapshots appear as a scrollable, zig-zagging trail of dots, oldest (left) to newest (right) —
-   click any dot to see Added/Modified/Removed counts and the full file list for what changed
-   since the previous one.
+   click any dot to see Added/Modified/Removed counts and a foldable folder tree below, with
+   changed files colored green/amber/red, for what changed since the previous one.
 4. Ctrl/Cmd-click a second dot to compare two arbitrary points directly instead of just "vs
    previous" — both dots glow while the comparison is active.
 5. **Pin** up to 2 snapshots to keep them forever; everything else rolls off automatically past
