@@ -19,11 +19,14 @@ just fast point-in-time copies you can fall back to between real VCS commits.
    snapshot.
 2. Turn on automatic snapshots and set an interval (5 minutes minimum). The copy is spread across
    many frames so it never freezes the Editor, even on large projects.
-3. Each snapshot shows Added/Modified/Removed counts since the previous one at a glance — click
-   **View Diff** for the full file lists.
-4. **Pin** up to 2 snapshots to keep them forever; everything else rolls off automatically past
+3. Snapshots appear as a scrollable, zig-zagging trail of dots, oldest (left) to newest (right) —
+   click any dot to see Added/Modified/Removed counts and the full file list for what changed
+   since the previous one.
+4. Ctrl/Cmd-click a second dot to compare two arbitrary points directly instead of just "vs
+   previous" — both dots glow while the comparison is active.
+5. **Pin** up to 2 snapshots to keep them forever; everything else rolls off automatically past
    your configured "keep last N" count.
-5. **Restore** always takes a fresh safety-net snapshot of your current state first, so a restore
+6. **Restore** always takes a fresh safety-net snapshot of your current state first, so a restore
    is never a one-way door.
 
 > Snapshots live in a `UniSnapshots` folder next to your project's `Assets` folder — not inside
