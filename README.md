@@ -14,6 +14,7 @@ Every window in the suite is 100% Editor-only — nothing ships in your build.
 | Uni-Preview | Pro add-on | ✅ | [docs/uni-preview.md](docs/uni-preview.md) |
 | Uni-Favourite | Standalone add-on | ✅ | [docs/uni-favourite.md](docs/uni-favourite.md) |
 | Uni-Hierarchy | Standalone add-on | ✅ | [docs/uni-hierarchy.md](docs/uni-hierarchy.md) |
+| Uni-Snapshot | Standalone add-on | ✅ | [docs/uni-snapshot.md](docs/uni-snapshot.md) |
 
 This repo is the documentation home for the suite — the package you bought ships with a short
 quick-start text file; come here for the full guide, troubleshooting, and themes/settings.
@@ -44,6 +45,8 @@ quick-start text file; come here for the full guide, troubleshooting, and themes
    again.
 6. **Uni-Hierarchy:** create a folder or pocket selected siblings from the toolbar; build a
    cross-cutting Uni-Group from Uni-Favourite's "Save as Group" or the Uni-Groups browser.
+7. **Uni-Snapshot:** click "Take Snapshot Now" for an instant project backup, or turn on automatic
+   snapshots and let it back up on its own.
 
 ## More
 
