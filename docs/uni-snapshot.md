@@ -38,9 +38,27 @@ content diffs, just fast point-in-time copies you can fall back to between real 
 7. **Backup Scope** (foldout in the header) lets you add or remove which project folders get
    backed up, with a live size estimate you refresh on demand.
 8. **Export ZIP** on any snapshot saves its files as a standalone `.zip`.
+9. **Show in Explorer** opens any snapshot's own folder.
 
 > Snapshots live in a `UniSnapshots` folder next to your project's `Assets` folder — not inside
 > `Library`, which Unity can wipe via Clear Cache. Add it to your VCS ignore file.
+
+## Disk-efficient by design
+
+Every snapshot's file *content* is stored once in a shared, content-addressed pool
+(`UniSnapshots/.blobs/`), not copied fresh into each snapshot's own folder. A static asset pack
+that never changes costs disk space once total, not once per snapshot — only files that actually
+changed since the previous snapshot get hashed and (if their content is genuinely new) written.
+Deleting or pruning a snapshot automatically reclaims any blobs no longer referenced by anything
+else.
+
+We deliberately did **not** build restoring from Unity's own downloaded-package caches (Asset
+Store cache / Package Manager cache) as an alternative way to avoid storing bulky third-party
+assets ourselves — those caches aren't guaranteed to exist, aren't guaranteed to still match what
+was actually imported (a package can be updated after import, silently invalidating the cached
+copy as a restore source), and their path layout differs by OS and Unity version. The shared blob
+pool above already solves the real disk-bloat problem completely, without depending on anything
+outside Uni-Snapshot's own history.
 
 ## What gets backed up
 
